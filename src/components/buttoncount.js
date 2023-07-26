@@ -9,7 +9,7 @@ import React,{useState} from "react";
     }
     return(
         <div>
-            <h1>Button clicked {count} times</h1>
+            <p>Button clicked {count} times</p>
             <button onClick={increment}>Button</button>
         </div>
     )
